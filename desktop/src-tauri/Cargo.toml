@@ -19,6 +19,7 @@ reqwest = { version = "0.12", default-features = false, features = ["rustls-tls"
 sha2 = "0.10"
 # «Знания»/«Очередь»: .docx is a ZIP (deflate), PDF streams are zlib
 flate2 = "1"
+base64 = "0.22"
 
 # Agent mode: screenshot + mouse/keyboard (Windows only; stubs elsewhere)
 [target.'cfg(windows)'.dependencies]
